@@ -1,0 +1,17 @@
+{
+  "name": "funcao-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "statements": 100,
+        "branches": 90,
+        "functions": 100,
+        "lines": 100
+      }
+    }
+  }
+}
